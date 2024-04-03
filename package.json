@@ -11,10 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "bun-promptx": "^0.2.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jsdoc": "^48.2.2",
     "node-fetch": "^3.3.1"
   },
   "devDependencies": {
     "@types/node": "^20.4.1",
-    "tsx": "^3.12.7"
+    "tsx": "^3.12.7",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
