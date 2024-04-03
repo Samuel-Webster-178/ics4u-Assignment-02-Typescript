@@ -35,10 +35,10 @@ const inputStr = input.value;
 
 // process & output
 if (inputStr.length) {
-  console.log("Invalid input.");
-} else {
   let maxRun = maxRunFunction(inputStr);
   console.log(`The string "${inputStr}" has a max run of ${maxRun}!`);
+} else {
+  console.log("Invalid input.");
 }
 
 console.log("\nDone.");
